@@ -1,6 +1,7 @@
 # Bookish wiki extension
 
-This is the README for your extension "bookish". After writing up a brief description, we recommend including the following sections.
+This is an extension for VS Code that adds support for editing Houdini's "bookish" markup format.
+Currently it is very primitive.
 
 ## Features
 
