@@ -1,0 +1,25 @@
+{
+    "name": "bookish",
+    "displayName": "Bookish",
+    "description": "Bookish wiki markup support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bookish",
+            "aliases": ["Bookish wiki markup", "bookish"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bookish",
+            "scopeName": "text.html.bookish",
+            "path": "./syntaxes/bookish.tmLanguage.json"
+        }]
+    }
+}
